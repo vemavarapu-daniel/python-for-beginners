@@ -1,0 +1,22 @@
+# method-1
+# 'print' is a keyword used to print a message or any thing to the python console. the message which is to be printed to the console must be written between (" ") or (' ')   
+print('hello world')
+
+output:
+hello world
+
+#method-2
+A='hello world'
+# Here 'A' is a variable. variable can be assined to any thing line A=01234 or a='mynameispython' etc...
+
+print(A)
+
+output:
+hello world
+
+# using function
+
+def myfunction(a):
+  print(a)
+a='hello world'
+myfunction(a)
