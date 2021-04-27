@@ -1,0 +1,15 @@
+int() is the most common data type used in any programming language.
+Int: all integers come under this data type(1 to ∞,0 ,-1 to -∞) ex: 100,4,7,9,0,-12,-12345,etc....
+
+#taking input has 'int'
+a=int(input())
+
+above line will convert or takes given input into int data-type iff input does not have any alphabets(a-z ,A-Z) and symbols(!@#><?....)
+example:
+case-1:if input does not have any alphabets(a-z ,A-Z) and symbols(!@#><?....)
+example:
+a='1234@python)'
+print(int(a))
+output:
+#gets error
+valueError: invalid literal for int() with base 10:
