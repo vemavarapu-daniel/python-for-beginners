@@ -1,0 +1,21 @@
+In programming, data type is an important concept.
+Variables can store data of different types, and different types can do different things.
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Boolean Type:	bool
+
+You can get the data type of any object by using the type() function:
+
+example:
+a=int(1234) or 1234
+b='python'
+print(type(a))
+print(type(b))
+
+output:
+<class 'int'>
+<class 'str'>
